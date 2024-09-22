@@ -1,0 +1,48 @@
+\documentclass[font=siyuan, 12pt]{article}
+\usepackage{amssymb}
+\usepackage{mathrsfs}
+\addtolength{\topmargin}{-.5in} \addtolength{\textheight}{1in}
+\addtolength{\oddsidemargin}{-.6in}
+\addtolength{\evensidemargin}{-.6in} \addtolength{\textwidth}{1.2in}
+\usepackage{latexsym,amsmath,amssymb,amsfonts,epsfig,graphicx,cite,psfrag,ctex}
+\usepackage{eepic,color,colordvi,amscd}
+\usepackage{xeCJK}
+\setCJKmainfont{Source Han Serif CN}
+
+\def\qed{\hfill \rule{4pt}{7pt}}
+\begin{document}
+\begin{center}
+            \large{代数学第一次作业}
+\end{center}
+
+\section{课堂练习}
+\begin{enumerate}
+    \item $k$为域。说明$k[x,y]$-模本质上为$(V,T_1,T_2)$,其中$V$是$k$-线性空间。$T_1,T_2$为$V$上的线性变换满足$T_1T_2=T_2T_1$.(更准确地说，此处指的是范畴等价)
+    \item $M,N$为$R$-模.对所有$r\in R, f\in \mathrm{Hom}_R(M,N)$,证明: \begin{align*}
+        (rf):M&\to N \\
+        m&\mapsto rf(m)
+    \end{align*}
+    也属于$\mathrm{Hom}_R(M,N)$.
+    \item $M$为$R$-模.证明\begin{align*}
+        R&\to \mathrm{End}_R(M)\\
+        r&\mapsto r\mathrm{Id}_M
+    \end{align*}
+    为环同态.
+   \item $I,J$为$R$的理想. $R/I\tilde{\to} R/J$是否能推出$I=J$?
+   \item 证明: $\mathbb{Q}$作为$\mathbb{Z}$-模没有极大子模，从而其没有合成列.
+\end{enumerate}
+\section{课本习题}
+\begin{enumerate}
+    \item 设$X\subset M$.证明$X$生成的子模$<X>$是所有包含$X$的子模之交.
+    \item 设$J$是$R$的理想.对于$R$-模$M$,证明:$M/JM$在$$(r+J)(m+JM)=rm+JM$$下是$R/J$-模.由此推出如果$JM=0$,那么$M$是$R/J$-模.
+    \item $A,B,A^{'}$为$M$子模.证明:若$A^{'}\subseteq A$,则$A\cap (B+A^{'})=(A\cap B)+A^{'}$.
+    \item 对$R$-模$M$,证明:$$\varphi_M :\mathrm{Hom}_R(R,M)\to M,\quad f\mapsto f(1)$$
+    为同构。
+    \item 设$A$为$B$子模。证明：若$A$,$B/A$为有限生成模,则$B$也是有限生成模.这个命题反过来是否正确？
+    \item  证明:(此题中所有映射均指模同态)\begin{enumerate}
+    \item $\varphi:B\to C$为单射当且仅当对任意$f,g:A\to B$, $\varphi f=\varphi g$给出$f=g$
+    \item $\varphi:B\to C$为满射当且仅当对任意$h,k:C\to D$, $h\varphi =k\varphi $给出$h=k$
+    \end{enumerate}
+\end{enumerate}
+
+\end{document}
