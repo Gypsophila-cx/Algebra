@@ -1,0 +1,57 @@
+
+\documentclass[12pt]{article}
+\usepackage{amssymb}
+\usepackage{mathrsfs}
+\addtolength{\topmargin}{-.5in} \addtolength{\textheight}{1in}
+\addtolength{\oddsidemargin}{-.6in}
+\addtolength{\evensidemargin}{-.6in} \addtolength{\textwidth}{1.2in}
+\usepackage{latexsym,amsmath,amssymb,amsfonts,epsfig,graphicx,cite,psfrag,ctex}
+\usepackage{eepic,color,colordvi,amscd}
+\usepackage{quiver}
+
+\def\qed{\hfill \rule{4pt}{7pt}}
+\begin{document}
+\begin{center}
+            \large{代数学第三次作业}
+\end{center}
+\section{课堂练习}
+\begin{enumerate}
+    \item 设$A,B\in \mathcal{C}$. $f:A\rightarrow B$为同构. 证明:其逆映射$g$惟一.
+    \item $\mathcal{C}=R^{Mod}$. 证明单态射=单同态，满态射=满同态.
+    \item $\mathcal{C=\mathrm{CommRing}}$, 证明嵌入映射$\mathbb{Z}\rightarrow \mathbb{Q}$为满态射.
+    \item 记号如课堂讲述. 证明: $(X\times Y;p,q)$为$\mathcal{C}^{'}_{X,Y}$的终对象.
+    \item $G=<a\vert a^2=1>,H=<b\vert b^2=1>$. 证明: $G,H$在$\mathrm{Groups}$中的上乘积是$<a,b\vert a^2=b^2=1>$.
+    \item 找出$R^{Mod}$中的推出(pullback)和拉回(pushout).(老师上课讲了形式，验证即可)
+\end{enumerate}
+\section{课本习题}
+\begin{enumerate}
+    \item $f:M\rightarrow N$, $g:M\rightarrow 0$, $h:0\rightarrow N$是$R$-模同态. 求$f,g$的推出和$f,h$的拉回.
+    \item 
+    \begin{enumerate}
+        \item 给定$R^{Mod}$上推出图表
+    % https://q.uiver.app/#q=WzAsNCxbMCwwLCJBIl0sWzEsMCwiQyJdLFswLDEsIkIiXSxbMSwxLCJEIl0sWzAsMSwiZyJdLFswLDIsImYiLDJdLFsxLDMsIlxcYmV0YSJdLFsyLDMsIlxcYWxwaGEiLDJdXQ==
+\[\begin{tikzcd}
+	A & C \\
+	B & D
+	\arrow["g", from=1-1, to=1-2]
+	\arrow["f"', from=1-1, to=2-1]
+	\arrow["\beta", from=1-2, to=2-2]
+	\arrow["\alpha"', from=2-1, to=2-2]
+\end{tikzcd}\]
+  证明: 若$g$为单射，则$\alpha$为单射. 若$g$为满射，则$\alpha$为满射.
+  \item 给定$R^{Mod}$上拉回图表
+  % https://q.uiver.app/#q=WzAsNCxbMCwwLCJEIl0sWzEsMCwiQyJdLFswLDEsIkIiXSxbMSwxLCJBIl0sWzAsMSwiXFxhbHBoYSJdLFswLDIsIlxcYmV0YSIsMl0sWzEsMywiZyJdLFsyLDMsImYiLDJdXQ==
+\[\begin{tikzcd}
+	D & C \\
+	B & A
+	\arrow["\alpha", from=1-1, to=1-2]
+	\arrow["\beta"', from=1-1, to=2-1]
+	\arrow["g", from=1-2, to=2-2]
+	\arrow["f"', from=2-1, to=2-2]
+\end{tikzcd}\]
+证明: 若$f$为单射，则$\alpha$为单射. 若$f$为满射，则$\alpha$为满射.
+
+    \end{enumerate}
+    \item 证明: 同构一定是双射.(课本中并未说明双射的定义.此处意思应该是指$\mathcal{C}$为集合范畴$\mathrm{Sets}$子范畴, 需要证明给定的同构映射是$\mathrm{Sets}$中双射.) 在集合范畴$\mathrm{Sets}$中, 双射也是同构.
+\end{enumerate}
+\end{document}
