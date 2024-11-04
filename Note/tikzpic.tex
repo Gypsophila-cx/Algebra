@@ -1,0 +1,13 @@
+\documentclass{standalone}
+\usepackage{tikz-cd}
+
+\begin{document}
+
+% https://tikzcd.yichuanshen.de/#N4Igdg9gJgpgziAXAbVABwnAlgFyxMJZABgBpiBdUkANwEMAbAVxiRAC0QBfU9TXfIRQBGUsKq1GLNgA0AOnIDGENACdoAfXYACAJrdeIDNjwEioytXrNWiEPp58TgomXFWptkDINOBZlAAmUkCJa2k7AHVuCRgoAHN4IlAAM3UAWyQyEBwIJGCQOAALLBScLOoAIxgwKAqQBjpqhgAFflMhBpgykA8bNnjfEDSITMQC3KRRSX67LA1A3oammFb2lzsGbvLHYYz6ycQAZiqausRs8K8UpcbmtucAkFUseKKdwxGxk5y8xGm7qsHv5Oi83uU+hEQPNhEMvlNqIcACzUBhYMBeKB0YpxJZXNgKGAADywcBwcAAhNoFDgijAcHQ4ftjoi-iiQNVakgALRHS6eNhoDTCADkTNG+VZSHZnPOfMhXiFgTFXAoXCAA
+\begin{tikzcd}
+    Z \arrow[r, "g"] \arrow[d, "f"']                    & Y \arrow[d, "i_2"] \arrow[rdd, "p_2'", bend left]  &   \\
+    X \arrow[r, "i_1"'] \arrow[rrd, "p_1'", bend right] & X\coprod_Z Y \arrow[rd, "\exists! \theta", dashed] &   \\
+                                                        &                                                    & W
+    \end{tikzcd}
+
+\end{document}

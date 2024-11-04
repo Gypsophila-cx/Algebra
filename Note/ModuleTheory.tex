@@ -64,7 +64,7 @@
     \centering
     \begin{tikzcd}
         &  &                                    & S \\
-\forall N \arrow[rrru, "\forall f"', bend left] \arrow[rrrd, "\forall g", bend right] \arrow[rr, "\exists ! \varphi" description] &  & M \arrow[ru, "p"'] \arrow[rd, "q"] &   \\
+\forall N \arrow[rrru, "\forall f"', bend left] \arrow[rrrd, "\forall g", bend right] \arrow[rr, "\exists ! \varphi" description] &  & M = S\times T \arrow[ru, "p"'] \arrow[rd, "q"] &   \\
         &  &                                    & T
 \end{tikzcd}
     \caption{（外）直积}
@@ -168,8 +168,8 @@ N \arrow[ru, "f"] \arrow[rd, "g"'] \arrow[rr, "\varphi=\begin{pmatrix}
     \centering
     \begin{tikzcd}
         &  &                                            & S \arrow[ld, "i"] \arrow[llld, "\forall f", bend right] \\
-\forall N &  & M \arrow[ll, "\exists ! \psi" description] &                                                         \\
-        &  &                                            & T \arrow[lu, "j"'] \arrow[lllu, "\forall g", bend left]
+\forall N &  & M = S\oplus T \arrow[ll, "\exists ! \psi" description] &                                                         \\
+        &  &                                            & T \arrow[lu, "j"'] \arrow[lllu, "\forall g"', bend left]
 \end{tikzcd}
     \caption{（内）直和}
     \label{fig:modulecoproduct}
@@ -241,7 +241,7 @@ N \arrow[ru, "f"] \arrow[rd, "g"'] \arrow[rr, "\varphi=\begin{pmatrix}
     \begin{tikzcd}
         &  &                              & S \arrow[ld, "i_1", hook] \arrow[llld, "\forall f", bend right] \\
 \forall N &  & S\times T \arrow[ll, "\psi"] &                                                                 \\
-        &  &                              & T \arrow[lu, "i_2"', hook] \arrow[lllu, "\forall g", bend left]
+        &  &                              & T \arrow[lu, "i_2"', hook] \arrow[lllu, "\forall g"', bend left]
 \end{tikzcd}
     \caption{模直积与模直和同构}
     \label{fig:product_is_coproduct}

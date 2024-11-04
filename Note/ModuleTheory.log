@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.10.7)  6 OCT 2024 09:38
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.10.7)  2 NOV 2024 14:45
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1174,20 +1174,14 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: SnakeLemma.png Graphic file (type bmp)
 <SnakeLemma.png>
  [4] [5] [6] (./ModuleTheory.aux)
-
-Package rerunfilecheck Warning: File `ModuleTheory.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `ModuleTheory.out':
-(rerunfilecheck)             Before: AACDCBF8C47600D06B002B94FB550502;457
-(rerunfilecheck)             After:  340CED6D25E1B9A55C46D5E9317F02A4;588.
+Package rerunfilecheck Info: File `ModuleTheory.out' has not changed.
+(rerunfilecheck)             Checksum: 340CED6D25E1B9A55C46D5E9317F02A4;588.
  ) 
 Here is how much of TeX's memory you used:
- 39346 strings out of 476683
- 852105 string characters out of 5804929
+ 39345 strings out of 476683
+ 852092 string characters out of 5804929
  1892012 words of memory out of 5000000
- 58866 multiletter control sequences out of 15000+600000
+ 58865 multiletter control sequences out of 15000+600000
  519901 words of font info for 101 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  119i,15n,121p,652b,1032s stack positions out of 10000i,1000n,20000p,200000b,200000s
